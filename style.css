@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+h1{ margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    font-size: 70px;
+    font-family: cursive;
+    
+}
+body{
+    background-color:#EFA9AE;
+    font-family:sans-serif;
+}
+
+.section3{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#reset-btn{
+    margin-top:2.3rem;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-family: cursive;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap:0.2rem;
+    max-width:410px;
+    margin: auto;
+    
+
+}
+.item{
+    background-color: #E55381;
+    color:black;
+    border: 3px solid black;
+    height: 130px;
+    width:130px;
+    font-size: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:bold;
+}
+
+.item:hover{
+    box-shadow: 2px 4px 7px rgb(25, 11, 40);
+}
+
+.message{
+    color: rgb(246, 52, 117);
+    text-align: center;
+     text-shadow:3px 2px 5px rgb(18, 18, 18,0.3);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
